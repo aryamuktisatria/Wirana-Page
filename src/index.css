@@ -1,0 +1,60 @@
+/* F:\wirana-page\memory-scrapbook\src\index.css */
+
+/*
+  Ini adalah file CSS utama untuk proyek Memory Scrapbook Anda.
+  Aturan-aturan kustom di sini akan diterapkan secara global.
+*/
+
+:root {
+  /* Definisikan variabel warna utama untuk konsistensi */
+  --color-primary-light: #F5F0CD; /* Warna krem */
+  --color-secondary: #FADA7A;     /* Warna oranye terang */
+  --color-tertiary: #578FCA;      /* Warna biru */
+  --color-dark: #3d5a80;          /* Warna biru tua */
+  --color-text-body: #6c757d;     /* Warna abu-abu teks */
+  --color-gradient-1: linear-gradient(135deg, var(--color-primary-light), var(--color-secondary));
+  --color-gradient-2: linear-gradient(90deg, var(--color-tertiary), var(--color-secondary));
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Ganti dengan font pilihan Anda */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-primary-light);
+  color: var(--color-text-body);
+}
+
+/* Add custom scrollbar for better UX on overflow content */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Custom shadow for a more "floating" effect */
+.shadow-3xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Custom perspective for 3D animations */
+.perspective-1000 {
+  perspective: 1000px;
+}
