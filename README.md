@@ -60,11 +60,11 @@ Berikut adalah beberapa tampilan utama dari aplikasi ini, yang menampilkan fungs
 
 ### Tampilan Utama (Navbar Desktop)
 Tangkapan layar ini menunjukkan navigasi desktop yang rapi dengan semua menu yang terlihat.
-![Tampilan utama dengan Navbar desktop.](https://github.com/aryamuktisatria/Wirana-Page/blob/master/public/foto-1.png)
+![Tampilan utama dengan Navbar desktop.](https://github.com/aryamuktisatria/Wirana-Page/blob/master/public/foto-2.png)
 
 ### Tampilan Mobile (Menu Terbuka)
 Ini adalah tampilan navbar saat diakses dari perangkat mobile, dengan menu yang dapat dibuka/tutup.
-![Tampilan mobile dengan menu navbar terbuka.](https://github.com/aryamuktisatria/Wirana-Page/blob/master/public/foto-2.png)
+![Tampilan mobile dengan menu navbar terbuka.](https://github.com/aryamuktisatria/Wirana-Page/blob/master/public/foto-1.png)
 
 
 
